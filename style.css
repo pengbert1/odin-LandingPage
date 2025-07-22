@@ -51,6 +51,7 @@
     height: 100px;
     width: 800px;
     display: flex;
+    border-radius: 10px;
 
 }
 
@@ -70,6 +71,7 @@
     background-color: #3882F6;
     color: white;
     border: 2px solid white;
+    border-radius: 5px;
 
 }
 
@@ -77,6 +79,7 @@
     margin-top: 0px;
     margin-left: 100px;
     color: rgb(202, 202, 202);
+    
 }
 
 #inspiring-quote{
@@ -111,10 +114,11 @@
 
 .box {
     background: rgb(255, 255, 255);
-    border: 5px solid blue;
+    border: 2px solid rgb(26, 162, 224);
     box-sizing: border-box;
     height: 100px;
     width: 100px;
+    border-radius: 10%;
 
 
 }
@@ -165,6 +169,7 @@
     align-items: center;
     gap: 40px;
     padding-bottom: 50px;
+    justify-content: space-evenly;
 
 
 }
@@ -195,6 +200,7 @@
 
 #subtext{
     font-size: 18px;
+
 }
 
 .top-third-text h1{
@@ -209,8 +215,14 @@
 
 .top-third-text button{
     background-color: rgb(16, 93, 182);
-    margin-top: 0;
+    margin-top: 5px;
     color:#E5E7EB;
+    width:100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+   
 
 }
 
